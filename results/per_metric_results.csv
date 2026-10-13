@@ -1,0 +1,69 @@
+Metric,Detector,Windows,Detected,False alarm events
+ec2_cpu_utilization_24ae8d,Static threshold,2,2,14
+ec2_cpu_utilization_53ea38,Static threshold,2,2,24
+ec2_cpu_utilization_5f5533,Static threshold,2,2,23
+ec2_cpu_utilization_77c1ca,Static threshold,1,1,27
+ec2_cpu_utilization_825cc2,Static threshold,1,1,3
+ec2_cpu_utilization_ac20cd,Static threshold,1,1,9
+ec2_cpu_utilization_c6585a,Static threshold,0,0,31
+ec2_cpu_utilization_fe7f93,Static threshold,3,2,25
+ec2_disk_write_bytes_1ef3de,Static threshold,1,1,33
+ec2_disk_write_bytes_c0d644,Static threshold,3,2,19
+ec2_network_in_257a54,Static threshold,1,1,20
+ec2_network_in_5abac7,Static threshold,2,2,24
+elb_request_count_8c0756,Static threshold,2,2,23
+grok_asg_anomaly,Static threshold,3,0,0
+iio_us-east-1_i-a2eb1cd9_NetworkIn,Static threshold,2,1,1
+rds_cpu_utilization_cc0c53,Static threshold,2,2,15
+rds_cpu_utilization_e47b3b,Static threshold,2,2,28
+ec2_cpu_utilization_24ae8d,Rolling z-score (24 h),2,2,26
+ec2_cpu_utilization_53ea38,Rolling z-score (24 h),2,2,26
+ec2_cpu_utilization_5f5533,Rolling z-score (24 h),2,2,24
+ec2_cpu_utilization_77c1ca,Rolling z-score (24 h),1,1,8
+ec2_cpu_utilization_825cc2,Rolling z-score (24 h),1,1,5
+ec2_cpu_utilization_ac20cd,Rolling z-score (24 h),1,1,8
+ec2_cpu_utilization_c6585a,Rolling z-score (24 h),0,0,30
+ec2_cpu_utilization_fe7f93,Rolling z-score (24 h),3,1,14
+ec2_disk_write_bytes_1ef3de,Rolling z-score (24 h),1,1,26
+ec2_disk_write_bytes_c0d644,Rolling z-score (24 h),3,2,20
+ec2_network_in_257a54,Rolling z-score (24 h),1,1,28
+ec2_network_in_5abac7,Rolling z-score (24 h),2,2,29
+elb_request_count_8c0756,Rolling z-score (24 h),2,2,27
+grok_asg_anomaly,Rolling z-score (24 h),3,3,19
+iio_us-east-1_i-a2eb1cd9_NetworkIn,Rolling z-score (24 h),2,0,8
+rds_cpu_utilization_cc0c53,Rolling z-score (24 h),2,2,17
+rds_cpu_utilization_e47b3b,Rolling z-score (24 h),2,2,8
+ec2_cpu_utilization_24ae8d,Isolation Forest,2,2,14
+ec2_cpu_utilization_53ea38,Isolation Forest,2,2,24
+ec2_cpu_utilization_5f5533,Isolation Forest,2,2,6
+ec2_cpu_utilization_77c1ca,Isolation Forest,1,1,28
+ec2_cpu_utilization_825cc2,Isolation Forest,1,1,10
+ec2_cpu_utilization_ac20cd,Isolation Forest,1,1,3
+ec2_cpu_utilization_c6585a,Isolation Forest,0,0,28
+ec2_cpu_utilization_fe7f93,Isolation Forest,3,2,24
+ec2_disk_write_bytes_1ef3de,Isolation Forest,1,1,35
+ec2_disk_write_bytes_c0d644,Isolation Forest,3,2,18
+ec2_network_in_257a54,Isolation Forest,1,1,21
+ec2_network_in_5abac7,Isolation Forest,2,2,20
+elb_request_count_8c0756,Isolation Forest,2,2,18
+grok_asg_anomaly,Isolation Forest,3,2,36
+iio_us-east-1_i-a2eb1cd9_NetworkIn,Isolation Forest,2,1,2
+rds_cpu_utilization_cc0c53,Isolation Forest,2,2,14
+rds_cpu_utilization_e47b3b,Isolation Forest,2,2,25
+ec2_cpu_utilization_24ae8d,Autoencoder (MLP),2,1,10
+ec2_cpu_utilization_53ea38,Autoencoder (MLP),2,2,7
+ec2_cpu_utilization_5f5533,Autoencoder (MLP),2,2,5
+ec2_cpu_utilization_77c1ca,Autoencoder (MLP),1,1,10
+ec2_cpu_utilization_825cc2,Autoencoder (MLP),1,1,1
+ec2_cpu_utilization_ac20cd,Autoencoder (MLP),1,1,12
+ec2_cpu_utilization_c6585a,Autoencoder (MLP),0,0,11
+ec2_cpu_utilization_fe7f93,Autoencoder (MLP),3,2,18
+ec2_disk_write_bytes_1ef3de,Autoencoder (MLP),1,1,18
+ec2_disk_write_bytes_c0d644,Autoencoder (MLP),3,2,13
+ec2_network_in_257a54,Autoencoder (MLP),1,1,3
+ec2_network_in_5abac7,Autoencoder (MLP),2,2,5
+elb_request_count_8c0756,Autoencoder (MLP),2,2,6
+grok_asg_anomaly,Autoencoder (MLP),3,1,11
+iio_us-east-1_i-a2eb1cd9_NetworkIn,Autoencoder (MLP),2,1,1
+rds_cpu_utilization_cc0c53,Autoencoder (MLP),2,2,1
+rds_cpu_utilization_e47b3b,Autoencoder (MLP),2,2,2

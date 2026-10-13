@@ -1,0 +1,13 @@
+Loaded 17 AWS metrics, 30 labelled anomaly windows, 67,740 data points
+Scored all series with 4 detectors in 9.1 s
+
+RESULTS at an alert budget of 1.0% of points (30 scored anomaly windows in 17 metrics):
+              Detector  Windows detected  Total windows  Detection rate  Alert precision    F1  False alarms per metric-day  Median alert time vs anomaly (min)
+      Static threshold                24             30           0.800            0.267 0.400                        1.595                             -22.500
+Rolling z-score (24 h)                25             30           0.833            0.197 0.318                        1.615                            -160.000
+      Isolation Forest                26             30           0.867            0.249 0.387                        1.630                             -12.500
+     Autoencoder (MLP)                24             30           0.800            0.256 0.387                        0.670                               0.000
+
+Edge cost per metric: Isolation Forest 2591 KB, 12.0 us/point | Autoencoder 23 KB
+
+All results saved in the 'results' folder.
